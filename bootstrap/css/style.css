@@ -1,0 +1,12 @@
+body {
+    height: 200vh;
+    position: relative;
+}
+
+.bg-header {
+    height: 50vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
