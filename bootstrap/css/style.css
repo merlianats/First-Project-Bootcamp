@@ -4,9 +4,105 @@ body {
 }
 
 .bg-header {
-    height: 50vh;
+    height: 45vh;
     width: 100%;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
 }
+
+.site-navbar {
+    margin-bottom: 0px;
+    z-index: 1999;
+    position: absolute;
+    position: fixed;
+    width: 100%;
+    top: 2rem; 
+}
+
+.site-navbar .container-fluid {
+    padding-left: 7rem;
+    padding-right: 7rem;
+}
+
+.site-navbar .site-logo {
+    position: absolute;
+    left: 8%;
+}
+
+.site-navbar .site-navigation {
+    position: absolute;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    left: 70%;
+    z-index: 5;
+}
+
+.site-navbar .site-navigation .site-menu {
+    margin-bottom: 0;
+}
+
+.site-navbar .site-navigation .site-menu a {
+    text-decoration: none;
+    display: inline-block;
+    /* padding: 3px 3px; */
+    font-size: 13px;
+}
+
+.site-navbar .site-navigation .site-menu li {
+    display: inline-block;
+    padding: 0px 12px;
+}
+
+.site-navbar .site-navigation .site-menu li a {
+    padding: 3px;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.site-navbar .right-cta-menu {
+    position: absolute;
+    right: -30%;
+}
+
+.text-right {
+    text-align: right;
+}
+
+
+.btn.btn-warning {
+    background-color: #ffde53;
+    width: 100px;
+    color: #0951b5;
+}
+
+.right-cta-menu.btn.btn-warning:hover {
+    color: #fff;
+    background: transparent;
+
+}
+
+.btn.btn-outline-light {
+    background: transparent;
+    border-width: 2px;
+    border-color: #fff;
+    width: 100px;
+}
+
+/* .btn.btn-outline-warning:hover {
+}
+  
+.btn.btn-outline-warning {
+    color: #89ba16; 
+} */
+
+.btn.btn-outline-light:hover {
+    color: #5F6F94;
+    background: #fff; 
+}
+
+
+
+
