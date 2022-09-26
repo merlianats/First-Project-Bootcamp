@@ -3,104 +3,69 @@ body {
     position: relative;
 }
 
-.bg-header {
-    height: 45vh;
-    width: 100%;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
+.header-top {
+    border-bottom: 1px solid #eee;
 }
 
-.site-navbar {
-    margin-bottom: 0px;
-    z-index: 1999;
-    position: absolute;
-    position: fixed;
-    width: 100%;
-    top: 2rem; 
+.container {
+    max-width: 1200px;
 }
 
-.site-navbar .container-fluid {
-    padding-left: 7rem;
-    padding-right: 7rem;
+.row {
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.site-navbar .site-logo {
-    position: absolute;
-    left: 8%;
+ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
 }
 
-.site-navbar .site-navigation {
-    position: absolute;
-    -webkit-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    transform: translateX(-50%);
-    left: 70%;
-    z-index: 5;
+.contact-us-header ul li {
+    display: inline-block;
+    margin-right: 15px;
 }
 
-.site-navbar .site-navigation .site-menu {
-    margin-bottom: 0;
+span {
+    transition: all 0.3s ease 0s;
 }
 
-.site-navbar .site-navigation .site-menu a {
+.contact-us-header ul li span img {
+    margin-right: 3px;
+}
+
+.contact-us-header ul li a {
+    display: inline-block;
+    font: inherit;
+    text-rendering: auto;
+    font-weight: normal;
     text-decoration: none;
-    display: inline-block;
-    /* padding: 3px 3px; */
-    font-size: 13px;
+    color: black;
 }
 
-.site-navbar .site-navigation .site-menu li {
-    display: inline-block;
-    padding: 0px 12px;
+.contact-us-header ul li a:hover {
+    color: blue;
 }
 
-.site-navbar .site-navigation .site-menu li a {
-    padding: 3px;
-    color: white;
-    display: inline-block;
-    text-decoration: none;
-}
-
-.site-navbar .right-cta-menu {
-    position: absolute;
-    right: -30%;
-}
-
-.text-right {
+.account-header {
     text-align: right;
 }
 
-
-.btn.btn-warning {
-    background-color: #ffde53;
-    width: 100px;
-    color: #0951b5;
+.account-header ul li {
+    display: inline-block;
+    position: relative;
+    padding: 0px 12px;
+    border-left: 1px solid #fff;
 }
 
-.right-cta-menu.btn.btn-warning:hover {
-    color: #fff;
-    background: transparent;
-
-}
-
-.btn.btn-outline-light {
-    background: transparent;
-    border-width: 2px;
-    border-color: #fff;
-    width: 100px;
-}
-
-/* .btn.btn-outline-warning:hover {
-}
-  
-.btn.btn-outline-warning {
-    color: #89ba16; 
-} */
-
-.btn.btn-outline-light:hover {
-    color: #5F6F94;
-    background: #fff; 
+.account-header ul li a {
+    font-size: 12px;
+    line-height: 40px;
+    text-transform: uppercase;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
 }
 
 
