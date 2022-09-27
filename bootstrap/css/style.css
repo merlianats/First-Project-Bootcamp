@@ -46,6 +46,7 @@ span {
 
 .contact-us-header ul li a:hover {
     color: blue;
+    text-decoration: underline;
 }
 
 .account-header {
@@ -67,6 +68,79 @@ span {
     text-decoration: none;
     color: black;
 }
+
+.account-header ul li a:hover {
+    color: #7895B2;
+}
+
+.header-middle {
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.header-middle .logo a img {
+    width: 100px;
+    height: 100px;
+}
+
+.header-boxsearch form {
+    position: relative;
+    margin-left: 250px;
+    width: 100%;
+    border: 1px solid #eee;
+    background: #fbfbfb;
+}
+
+.header-boxsearch form input {
+    font-size: 13px;
+    border: 0;
+    background: inherit;
+    width: 100%;
+    height: 36px;
+    line-height: 36px;
+    padding: 0 43px 0 13 px;
+}
+
+.header-boxsearch form button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    border: 0;
+    background: inherit;
+    font-size: 17px;
+    padding: 0;
+    width: 36px;
+    text-align: center;
+}
+
+.cart-area {
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 100px;
+}
+
+.cart-area a img {
+    font-size: 23px;
+    margin-right: 5px;
+}
+
+.cart-area img {
+    display: inline-block;
+    font-weight: normal;
+}
+
+.cart-area a {
+    font-size: 13px;
+    color: black;
+    text-transform: uppercase;
+    position: relative;
+    text-decoration: none;
+}
+
+
+
+
 
 
 
