@@ -74,13 +74,13 @@ span {
 }
 
 .header-middle {
-    padding: 15px;
+    padding: 10px;
     border-bottom: 1px solid #eee;
 }
 
 .header-middle .logo a img {
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
 }
 
 .header-boxsearch form {
@@ -177,9 +177,36 @@ span {
     text-decoration: none;
 }
 
-.main-menu nav ul li a.active {
+.main-menu nav ul.active {
     border-top: 1px solid #222;
+    transition: all .5s ease 0s;
 }
+
+.banner-area {
+    padding-bottom: 50px;
+}
+
+.home-banner-style-1 {
+    background: #fbf0c3;
+    border: 5px solid #FFF5E1;
+}
+
+.home-banner-style-1 h3 {
+    font-size: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 25px;
+    margin-bottom: 9px;
+}
+
+.banner-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 
 
 
