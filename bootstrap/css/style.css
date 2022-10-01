@@ -45,7 +45,7 @@ span {
 }
 
 .contact-us-header ul li a:hover {
-    color: blue;
+    color: #dfcd9f;
     text-decoration: underline;
 }
 
@@ -70,7 +70,7 @@ span {
 }
 
 .account-header ul li a:hover {
-    color: #7895B2;
+    color: #dfcd9f;
 }
 
 .header-middle {
@@ -184,11 +184,28 @@ span {
 
 .banner-area {
     padding-bottom: 50px;
+    margin-top: 80px;
+    border-bottom: 1px solid #eee;
 }
 
 .home-banner-style-1 {
-    background: #fbf0c3;
-    border: 5px solid #FFF5E1;
+    background: #FFECEF;
+    border: 10px solid #EEEEEE;
+}
+
+.home-banner-style-2 {
+    background: #AEBDCA;
+    border: 10px solid #EEEEEE;
+}
+
+.home-banner-style-3 {
+    background: #DFF6FF;
+    border: 10px solid #EEEEEE;
+}
+
+.home-banner-style-4 {
+    background: #EEE3CB;
+    border: 10px solid #EEEEEE;
 }
 
 .home-banner-style-1 h3 {
@@ -196,8 +213,59 @@ span {
     text-align: center;
     text-transform: uppercase;
     font-weight: 600;
-    line-height: 25px;
-    margin-bottom: 9px;
+    line-height: 50px;
+    margin-top: 7px;
+    margin-bottom: 10px;
+    letter-spacing: 3px;
+}
+
+.home-banner-style-2 h3 {
+    font-size: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 50px;
+    margin-top: 7px;
+    margin-bottom: 10px;
+    letter-spacing: 3px;
+}
+
+.home-banner-style-3 h3 {
+    font-size: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 50px;
+    margin-top: 7px;
+    margin-bottom: 10px;
+    letter-spacing: 3px;
+}
+
+.home-banner-style-4 h3 {
+    font-size: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 50px;
+    margin-top: 7px;
+    margin-bottom: 10px;
+    letter-spacing: 3px;
+}
+
+.home-banner-style-1 .banner-img {
+    padding-bottom: 8px;
+}
+
+.home-banner-style-2 .banner-img {
+    padding-bottom: 13px;
+}
+
+.home-banner-style-3 .banner-img {
+    padding-bottom: 13px;
+}
+
+.home-banner-style-4 .banner-img {
+    padding-bottom: 13px;
 }
 
 .banner-img {
