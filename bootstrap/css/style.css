@@ -189,28 +189,32 @@ span {
 
 .banner-area {
     padding-bottom: 50px;
-    margin-top: 80px;
+    margin-top: 50px;
     border-bottom: 1px solid #eee;
+}
+
+.title-area-product {
+    position: relative;
 }
 
 .home-banner-style-1 {
     background: #FFECEF;
-    border: 10px solid #EEEEEE;
+    border: 8px solid #EEEEEE;
 }
 
 .home-banner-style-2 {
     background: #AEBDCA;
-    border: 10px solid #EEEEEE;
+    border: 8px solid #EEEEEE;
 }
 
 .home-banner-style-3 {
     background: #DFF6FF;
-    border: 10px solid #EEEEEE;
+    border: 8px solid #EEEEEE;
 }
 
 .home-banner-style-4 {
     background: #EEE3CB;
-    border: 10px solid #EEEEEE;
+    border: 8px solid #EEEEEE;
 }
 
 .home-banner-style-1 h3 {
