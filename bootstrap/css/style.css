@@ -323,6 +323,25 @@ span {
     text-decoration: line-through;
 }
 
+.banner-area-service-Quality {
+    padding-bottom: 50px;
+    margin-top: 50px;
+    border-bottom: 1px solid #eee;
+}
+
+.banner-box1 h3 {
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-style: italic;
+    line-height: 50px;
+    margin-top: 2px;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+
 
 
 
