@@ -1,3 +1,4 @@
+// Tombol learn more
 $(document).ready(function(){
     $(".row2").hide(function(){
         $("button.button-more").click(function(){

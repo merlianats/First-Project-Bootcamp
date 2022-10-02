@@ -1,5 +1,5 @@
 body {
-    height: 500vh;
+    /* height: 500vh; */
     position: relative;
 }
 
@@ -343,6 +343,11 @@ span {
     margin-top: 2px;
     margin-bottom: 10px;
     letter-spacing: 2px;
+}
+
+.banner-payment {
+    padding-bottom: 20px;
+    margin-top: 20px;
 }
 
 
