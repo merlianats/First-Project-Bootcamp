@@ -474,6 +474,82 @@ input[type=checkbox]:not(old) + label > span {
     margin-bottom: 3px;
 }
 
+.footer-gotrav {
+    padding-top: 5em;
+}
 
+.footer-gotrav {
+    background: #dfcd9f;
+    font-size: 14px;
+}
 
+.footer-gotrav a {
+    color: #222;
+    text-decoration: none;
+}
 
+.footer-gotrav .footer-header {
+    color: #222;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.footer-gotrav .list-unstyled li a {
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.text {
+    padding: 0 10px;
+}
+
+.text:hover {
+    color: #222;
+}
+.ftco-footer-social li {
+    list-style: none;
+    margin: 0 10px 0 0;
+    display: inline-block;
+}
+
+.ftco-footer-social li a {
+    height: 40px;
+    width: 40px;
+    display: block;
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 50%;
+    position: relative;
+}
+
+.ftco-footer-social li a span {
+    position: absolute;
+    font-size: 20px;
+    top: 42%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); 
+}
+
+.ftco-footer-social li a:hover {
+    background: #fff;
+}
+
+.footer-logo {
+    margin-left: 190px;
+    margin-top: -270px;
+}
+
+.footer-copyright {
+    background-color: #222;
+    color: #dfcd9f;
+    padding: 2em 0;
+}
+
+.footer-copyright p {
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 10px;
+}
