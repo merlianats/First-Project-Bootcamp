@@ -183,9 +183,8 @@ span {
     text-decoration: none;
 }
 
-.main-menu nav ul.active {
-    border-top: 1px solid #222;
-    transition: all .5s ease 0s;
+.main-menu nav ul li a:hover {
+    color: #dfcd9f;
 }
 
 .banner-area {
@@ -303,7 +302,7 @@ span {
     letter-spacing: 2px;
 }
 
-.product-newCollection-area {
+#product-newCollection-area {
     border-bottom: 1px solid #eee;
 }
 
@@ -552,4 +551,110 @@ input[type=checkbox]:not(old) + label > span {
     letter-spacing: 2px;
     text-align: center;
     margin-top: 10px;
+}
+
+/* BAGIAN SIGNIN */
+
+.main-login {
+    padding: 125px;
+    background: #fbfbfb;
+}
+
+.container-signin {
+    width: 900px;
+    background: #fff;
+    margin: 0 auto;
+    box-shadow: 0px 15px 17px 1px rgba(0, 0, 0, 0.24);
+    -moz-box-shadow: 0px 15px 17px 1px rgba(0, 0, 0, 0.24);
+    -webkit-box-shadow: 0px 15px 17px 1px rgba(0, 0, 0, 0.24);
+    -o-box-shadow: 0px 15px 17px 1px rgba(0, 0, 0, 0.24);
+    -ms-box-shadow: 0px 15px 17px 1px rgba(0, 0, 0, 0.24);
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -o-border-radius: 20px;
+    -ms-border-radius: 20px;
+}
+
+.signin-content {
+    padding: 75px 0;
+}
+
+.signin-form {
+    margin-left: 75px;
+    margin-right: 75px;
+    padding-left: 34px;
+}
+
+.signin-form {
+    width: 50%;
+    overflow: hidden;
+}
+
+.form-title {
+    margin-bottom: 40px;
+}
+
+h2.form-title {
+    color: #222;
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+
+.login-form {
+    width: 100%;
+}
+
+.form-group {
+    position: relative;
+    margin-bottom: 25px;
+    overflow: hidden;
+}
+
+.form-group:last-child {
+    margin-bottom: 0px;
+}
+
+input {
+    width: 100%;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #999;
+    padding: 6px 30px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+label {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    color: #222;
+    transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+}
+
+.form-submit {
+    display: inline-block;
+    border-bottom: none;
+    background-color: #222;
+    color: #dfcd9f;
+    width: auto;
+    padding: 13px 39px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.form-submit:hover {
+    background: #dfcd9f;
+    color: #222;
+}
+
+.signin-image {
+    margin-top: -380px;
+    margin-left: 450px;
 }
