@@ -451,7 +451,7 @@ label {
 }
 
 .signup-image {
-    margin-top: -480px;
+    margin-top: -550px;
     margin-left: 450px;
 }
 
@@ -472,6 +472,12 @@ input[type=checkbox]:not(old) + label > span {
     margin-right: 15px;
     margin-bottom: 3px;
 }
+
+.already-account {
+    text-decoration: none;
+}
+
+/* BAGIAN FOOTER */
 
 .footer-gotrav {
     padding-top: 5em;
