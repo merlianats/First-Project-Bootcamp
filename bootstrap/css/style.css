@@ -562,7 +562,7 @@ input[type=checkbox]:not(old) + label > span {
 /* BAGIAN SIGNIN */
 
 .main-login {
-    padding: 125px;
+    padding: 110px;
     background: #fbfbfb;
 }
 
@@ -661,6 +661,6 @@ label {
 }
 
 .signin-image {
-    margin-top: -380px;
+    margin-top: -440px;
     margin-left: 450px;
 }
